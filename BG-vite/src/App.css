@@ -1,0 +1,18 @@
+/* App.css */
+
+.color-button {
+  outline: none;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+.color-button:focus {
+  outline: 2px solid #ffffff;
+}
